@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+.tabsPage {
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+}
+.tabs-wrapper {
+  width: 600px;
+  background-color: rgb(196, 154, 250);
+  border-radius: 5px 5px 5px 5px;
+}
+.tabs {
+  display: flex;
+  justify-content: left;
+}
+.tab {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.tabs-content {
+  padding: 10px 20px;
+  border: 5px solid rgb(196, 154, 250);
+  background-color: #fff;
+}
+.tab-item {
+  font-size: 18px;
+  line-height: 24px;
+}
+.tabs-wrapper .active {
+  background-color: rgb(198, 134, 204);
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+}
+
+.calculator {
+  width: 50%;
+  margin: 40px auto;
+}
+.back,
+.clear,
+.equal,
+.calc__btn {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid rgb(42, 42, 51);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(to right, #ccc, #fff);
+}
+.clear,
+.back {
+  width: 88px;
+}
+.result {
+  width: 184px;
+  height: 40px;
+  margin: 2px;
+  background-color: rgb(198, 191, 206);
+  text-align: right;
+  border: 2px solid rgb(73, 73, 83);
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.taskEror {
+  font-size: 30px;
+  color: red;
+}
