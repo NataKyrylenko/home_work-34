@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .tabsPage {
-  width: 50%;
+  width: 60vw;
   height: auto;
   margin: 20px auto;
 }
@@ -38,7 +38,7 @@
 }
 
 .calculator {
-  width: 50%;
+  width: 60vw;
   margin: 40px auto;
 }
 .back,
